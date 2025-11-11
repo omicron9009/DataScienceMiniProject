@@ -1,0 +1,597 @@
+Data imported successfully!
+------------------------------
+Data Shape (rows, columns): (9612, 36)
+------------------------------
+First 5 rows of the DataFrame:
+    fin_year  month  state_code   state_name  district_code district_name  \
+0  2023-2024  March          18  MAHARASHTRA           1804     RATNAGIRI   
+1  2023-2024  March          18  MAHARASHTRA           1807         DHULE   
+2  2023-2024  March          18  MAHARASHTRA           1809    AHMEDNAGAR   
+3  2023-2024  March          18  MAHARASHTRA           1817      PARBHANI   
+4  2023-2024  March          18  MAHARASHTRA           1820     Dharashiv   
+
+   Approved_Labour_Budget  Average_Wage_rate_per_day_per_person  \
+0                  534483                            298.402239   
+1                 1329507                            311.223189   
+2                 2247080                            321.932569   
+3                 4450591                            322.118343   
+4                 1605784                            303.088948   
+
+   Average_days_of_employment_provided_per_Household  \
+0                                                 26   
+1                                                 32   
+2                                                 32   
+3                                                 48   
+4                                                 46   
+
+   Differently_abled_persons_worked  ...  Total_No_of_JobCards_issued  \
+0                               175  ...                       253496   
+1                               127  ...                       435879   
+2                               156  ...                       765002   
+3                               208  ...                       407083   
+4                               172  ...                       321369   
+
+   Total_No_of_Workers  Total_No_of_Works_Takenup         Wages  \
+0               470676                      37143   1993.303085   
+1               917835                      34111   4582.201254   
+2              1892397                      55678   7770.338320   
+3               790191                      37658  15826.885341   
+4               700212                      25979   5929.956483   
+
+   Women_Persondays  percent_of_Category_B_Works  \
+0            294578                           95   
+1            652772                           89   
+2           1156141                           87   
+3           2359355                           90   
+4            818911                           82   
+
+   percent_of_Expenditure_on_Agriculture_Allied_Works  \
+0                                              77.91    
+1                                              38.99    
+2                                              73.65    
+3                                              71.63    
+4                                              61.24    
+
+   percent_of_NRM_Expenditure  percentage_payments_gererated_within_15_days  \
+0                        0.23                                        101.27   
+1                        0.64                                        101.57   
+2                        0.34                                        105.05   
+3                        0.06                                        114.13   
+4                        0.33                                        100.57   
+
+   Remarks  
+0      NaN  
+1      NaN  
+2      NaN  
+3      NaN  
+4      NaN  
+
+[5 rows x 36 columns]
+------------------------------
+Missing values per column:
+fin_year                                                    0
+month                                                       0
+state_code                                                  0
+state_name                                                  0
+district_code                                               0
+district_name                                               0
+Approved_Labour_Budget                                      0
+Average_Wage_rate_per_day_per_person                        0
+Average_days_of_employment_provided_per_Household           0
+Differently_abled_persons_worked                            0
+Material_and_skilled_Wages                                  0
+Number_of_Completed_Works                                   0
+Number_of_GPs_with_NIL_exp                                  0
+Number_of_Ongoing_Works                                     0
+Persondays_of_Central_Liability_so_far                      0
+SC_persondays                                               0
+SC_workers_against_active_workers                           0
+ST_persondays                                               0
+ST_workers_against_active_workers                           0
+Total_Adm_Expenditure                                       0
+Total_Exp                                                   0
+Total_Households_Worked                                     0
+Total_Individuals_Worked                                    0
+Total_No_of_Active_Job_Cards                                0
+Total_No_of_Active_Workers                                  0
+Total_No_of_HHs_completed_100_Days_of_Wage_Employment       0
+Total_No_of_JobCards_issued                                 0
+Total_No_of_Workers                                         0
+Total_No_of_Works_Takenup                                   0
+Wages                                                       0
+Women_Persondays                                            0
+percent_of_Category_B_Works                                 0
+percent_of_Expenditure_on_Agriculture_Allied_Works          0
+percent_of_NRM_Expenditure                                  0
+percentage_payments_gererated_within_15_days                0
+Remarks                                                  9612
+dtype: int64
+------------------------------
+Data types of each column:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 9612 entries, 0 to 9611
+Data columns (total 36 columns):
+ #   Column                                                 Non-Null Count  Dtype  
+---  ------                                                 --------------  -----  
+ 0   fin_year                                               9612 non-null   object 
+ 1   month                                                  9612 non-null   object 
+ 2   state_code                                             9612 non-null   int64  
+ 3   state_name                                             9612 non-null   object 
+ 4   district_code                                          9612 non-null   int64  
+ 5   district_name                                          9612 non-null   object 
+ 6   Approved_Labour_Budget                                 9612 non-null   int64  
+ 7   Average_Wage_rate_per_day_per_person                   9612 non-null   float64
+ 8   Average_days_of_employment_provided_per_Household      9612 non-null   int64  
+ 9   Differently_abled_persons_worked                       9612 non-null   int64  
+ 10  Material_and_skilled_Wages                             9612 non-null   float64
+ 11  Number_of_Completed_Works                              9612 non-null   int64  
+ 12  Number_of_GPs_with_NIL_exp                             9612 non-null   int64  
+ 13  Number_of_Ongoing_Works                                9612 non-null   int64  
+ 14  Persondays_of_Central_Liability_so_far                 9612 non-null   int64  
+ 15  SC_persondays                                          9612 non-null   int64  
+ 16  SC_workers_against_active_workers                      9612 non-null   int64  
+ 17  ST_persondays                                          9612 non-null   int64  
+ 18  ST_workers_against_active_workers                      9612 non-null   int64  
+ 19  Total_Adm_Expenditure                                  9612 non-null   float64
+ 20  Total_Exp                                              9612 non-null   float64
+ 21  Total_Households_Worked                                9612 non-null   int64  
+ 22  Total_Individuals_Worked                               9612 non-null   int64  
+ 23  Total_No_of_Active_Job_Cards                           9612 non-null   int64  
+ 24  Total_No_of_Active_Workers                             9612 non-null   int64  
+ 25  Total_No_of_HHs_completed_100_Days_of_Wage_Employment  9612 non-null   int64  
+ 26  Total_No_of_JobCards_issued                            9612 non-null   int64  
+ 27  Total_No_of_Workers                                    9612 non-null   int64  
+ 28  Total_No_of_Works_Takenup                              9612 non-null   int64  
+ 29  Wages                                                  9612 non-null   float64
+ 30  Women_Persondays                                       9612 non-null   int64  
+ 31  percent_of_Category_B_Works                            9612 non-null   int64  
+ 32  percent_of_Expenditure_on_Agriculture_Allied_Works     9612 non-null   float64
+ 33  percent_of_NRM_Expenditure                             9612 non-null   float64
+ 34  percentage_payments_gererated_within_15_days           9612 non-null   float64
+ 35  Remarks                                                0 non-null      float64
+dtypes: float64(9), int64(23), object(4)
+memory usage: 2.6+ MB
+None
+------------------------------
+Descriptive statistics for numerical columns:
+       state_code  district_code  Approved_Labour_Budget  \
+count      9612.0    9612.000000            9.612000e+03   
+mean         18.0    1818.540990            1.918014e+06   
+std           0.0       9.795733            2.039854e+06   
+min          18.0    1802.000000            5.294000e+03   
+25%          18.0    1810.000000            4.006270e+05   
+50%          18.0    1819.000000            1.317952e+06   
+75%          18.0    1827.000000            2.559545e+06   
+max          18.0    1835.000000            1.091784e+07   
+
+       Average_Wage_rate_per_day_per_person  \
+count                           9612.000000   
+mean                             296.811295   
+std                               96.925405   
+min                                8.436364   
+25%                              279.927576   
+50%                              295.407787   
+75%                              303.521227   
+max                             4481.525457   
+
+       Average_days_of_employment_provided_per_Household  \
+count                                        9612.000000   
+mean                                           33.234811   
+std                                            12.184280   
+min                                             6.000000   
+25%                                            26.000000   
+50%                                            34.000000   
+75%                                            40.000000   
+max                                            94.000000   
+
+       Differently_abled_persons_worked  Material_and_skilled_Wages  \
+count                       9612.000000                 9612.000000   
+mean                         485.136288                 1919.515660   
+std                          899.139310                 2895.017190   
+min                            0.000000                    0.000000   
+25%                           82.000000                   91.584054   
+50%                          192.000000                  475.935996   
+75%                          522.000000                 2677.107745   
+max                         5723.000000                15922.651605   
+
+       Number_of_Completed_Works  Number_of_GPs_with_NIL_exp  \
+count                9612.000000                 9612.000000   
+mean                 5510.569600                   87.036621   
+std                  5281.184672                  149.896686   
+min                     1.000000                    1.000000   
+25%                  1454.000000                    9.000000   
+50%                  3611.000000                   26.000000   
+75%                  8093.500000                   87.000000   
+max                 25718.000000                 1314.000000   
+
+       Number_of_Ongoing_Works  ...  Total_No_of_JobCards_issued  \
+count              9612.000000  ...                  9612.000000   
+mean              30166.690387  ...                413102.135248   
+std               16142.598989  ...                173341.645346   
+min                8936.000000  ...                124615.000000   
+25%               18240.500000  ...                283541.250000   
+50%               26158.500000  ...                380098.000000   
+75%               38819.000000  ...                530806.750000   
+max               86131.000000  ...                775899.000000   
+
+       Total_No_of_Workers  Total_No_of_Works_Takenup         Wages  \
+count         9.612000e+03                9612.000000   9612.000000   
+mean          8.671203e+05               35677.259988   6687.978902   
+std           3.876598e+05               17747.435285   6790.954894   
+min           2.370980e+05                9568.000000      0.148480   
+25%           5.681765e+05               22264.500000   1522.576307   
+50%           8.100275e+05               30913.000000   4842.129321   
+75%           1.073842e+06               45601.000000   9535.630710   
+max           1.927430e+06               94433.000000  41276.572840   
+
+       Women_Persondays  percent_of_Category_B_Works  \
+count      9.612000e+03                  9612.000000   
+mean       1.076180e+06                    86.036101   
+std        1.171885e+06                     6.692314   
+min        2.640000e+02                    55.000000   
+25%        2.058395e+05                    80.000000   
+50%        6.496340e+05                    88.000000   
+75%        1.498878e+06                    91.000000   
+max        6.382541e+06                    97.000000   
+
+       percent_of_Expenditure_on_Agriculture_Allied_Works  \
+count                                        9612.000000    
+mean                                           53.120953    
+std                                            17.669962    
+min                                            12.840000    
+25%                                            40.060000    
+50%                                            53.485000    
+75%                                            66.510000    
+max                                            92.440000    
+
+       percent_of_NRM_Expenditure  \
+count                 9612.000000   
+mean                     5.760469   
+std                      8.172078   
+min                      0.000000   
+25%                      0.150000   
+50%                      1.100000   
+75%                     11.182500   
+max                     32.520000   
+
+       percentage_payments_gererated_within_15_days  Remarks  
+count                                   9612.000000      0.0  
+mean                                     109.335355      NaN  
+std                                       33.208053      NaN  
+min                                       82.100000      NaN  
+25%                                      100.040000      NaN  
+50%                                      102.150000      NaN  
+75%                                      106.082500      NaN  
+max                                      331.610000      NaN  
+
+[8 rows x 32 columns]
+------------------------------
+
+Step 2 Complete: We have imported the data and performed a preliminary inspection.
+The next step will be to handle any missing data that was identified.
+
+Summary statistics for all numerical columns:
+       state_code  district_code  Approved_Labour_Budget  \
+count      9612.0    9612.000000            9.612000e+03   
+mean         18.0    1818.540990            1.918014e+06   
+std           0.0       9.795733            2.039854e+06   
+min          18.0    1802.000000            5.294000e+03   
+25%          18.0    1810.000000            4.006270e+05   
+50%          18.0    1819.000000            1.317952e+06   
+75%          18.0    1827.000000            2.559545e+06   
+max          18.0    1835.000000            1.091784e+07   
+
+       Average_Wage_rate_per_day_per_person  \
+count                           9612.000000   
+mean                             296.811295   
+std                               96.925405   
+min                                8.436364   
+25%                              279.927576   
+50%                              295.407787   
+75%                              303.521227   
+max                             4481.525457   
+
+       Average_days_of_employment_provided_per_Household  \
+count                                        9612.000000   
+mean                                           33.234811   
+std                                            12.184280   
+min                                             6.000000   
+25%                                            26.000000   
+50%                                            34.000000   
+75%                                            40.000000   
+max                                            94.000000   
+
+       Differently_abled_persons_worked  Material_and_skilled_Wages  \
+count                       9612.000000                 9612.000000   
+mean                         485.136288                 1919.515660   
+std                          899.139310                 2895.017190   
+min                            0.000000                    0.000000   
+25%                           82.000000                   91.584054   
+50%                          192.000000                  475.935996   
+75%                          522.000000                 2677.107745   
+max                         5723.000000                15922.651605   
+
+       Number_of_Completed_Works  Number_of_GPs_with_NIL_exp  \
+count                9612.000000                 9612.000000   
+mean                 5510.569600                   87.036621   
+std                  5281.184672                  149.896686   
+min                     1.000000                    1.000000   
+25%                  1454.000000                    9.000000   
+50%                  3611.000000                   26.000000   
+75%                  8093.500000                   87.000000   
+max                 25718.000000                 1314.000000   
+
+       Number_of_Ongoing_Works  ...  \
+count              9612.000000  ...   
+mean              30166.690387  ...   
+std               16142.598989  ...   
+min                8936.000000  ...   
+25%               18240.500000  ...   
+50%               26158.500000  ...   
+75%               38819.000000  ...   
+max               86131.000000  ...   
+
+       Total_No_of_HHs_completed_100_Days_of_Wage_Employment  \
+count                                        9612.000000       
+mean                                         4553.641906       
+std                                          7056.207349       
+min                                             0.000000       
+25%                                           322.000000       
+50%                                          2120.000000       
+75%                                          5440.000000       
+max                                         49941.000000       
+
+       Total_No_of_JobCards_issued  Total_No_of_Workers  \
+count                  9612.000000         9.612000e+03   
+mean                 413102.135248         8.671203e+05   
+std                  173341.645346         3.876598e+05   
+min                  124615.000000         2.370980e+05   
+25%                  283541.250000         5.681765e+05   
+50%                  380098.000000         8.100275e+05   
+75%                  530806.750000         1.073842e+06   
+max                  775899.000000         1.927430e+06   
+
+       Total_No_of_Works_Takenup         Wages  Women_Persondays  \
+count                9612.000000   9612.000000      9.612000e+03   
+mean                35677.259988   6687.978902      1.076180e+06   
+std                 17747.435285   6790.954894      1.171885e+06   
+min                  9568.000000      0.148480      2.640000e+02   
+25%                 22264.500000   1522.576307      2.058395e+05   
+50%                 30913.000000   4842.129321      6.496340e+05   
+75%                 45601.000000   9535.630710      1.498878e+06   
+max                 94433.000000  41276.572840      6.382541e+06   
+
+       percent_of_Category_B_Works  \
+count                  9612.000000   
+mean                     86.036101   
+std                       6.692314   
+min                      55.000000   
+25%                      80.000000   
+50%                      88.000000   
+75%                      91.000000   
+max                      97.000000   
+
+       percent_of_Expenditure_on_Agriculture_Allied_Works  \
+count                                        9612.000000    
+mean                                           53.120953    
+std                                            17.669962    
+min                                            12.840000    
+25%                                            40.060000    
+50%                                            53.485000    
+75%                                            66.510000    
+max                                            92.440000    
+
+       percent_of_NRM_Expenditure  \
+count                 9612.000000   
+mean                     5.760469   
+std                      8.172078   
+min                      0.000000   
+25%                      0.150000   
+50%                      1.100000   
+75%                     11.182500   
+max                     32.520000   
+
+       percentage_payments_gererated_within_15_days  
+count                                   9612.000000  
+mean                                     109.335355  
+std                                       33.208053  
+min                                       82.100000  
+25%                                      100.040000  
+50%                                      102.150000  
+75%                                      106.082500  
+max                                      331.610000  
+
+[8 rows x 31 columns]
+--------------------------------------------------
+Data types after cleaning:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 9612 entries, 0 to 9611
+Data columns (total 35 columns):
+ #   Column                                                 Non-Null Count  Dtype  
+---  ------                                                 --------------  -----  
+ 0   fin_year                                               9612 non-null   object 
+ 1   month                                                  9612 non-null   object 
+ 2   state_code                                             9612 non-null   int64  
+ 3   state_name                                             9612 non-null   object 
+ 4   district_code                                          9612 non-null   int64  
+ 5   district_name                                          9612 non-null   object 
+ 6   Approved_Labour_Budget                                 9612 non-null   int64  
+ 7   Average_Wage_rate_per_day_per_person                   9612 non-null   float64
+ 8   Average_days_of_employment_provided_per_Household      9612 non-null   int64  
+ 9   Differently_abled_persons_worked                       9612 non-null   int64  
+ 10  Material_and_skilled_Wages                             9612 non-null   float64
+ 11  Number_of_Completed_Works                              9612 non-null   int64  
+ 12  Number_of_GPs_with_NIL_exp                             9612 non-null   int64  
+ 13  Number_of_Ongoing_Works                                9612 non-null   int64  
+ 14  Persondays_of_Central_Liability_so_far                 9612 non-null   int64  
+ 15  SC_persondays                                          9612 non-null   int64  
+ 16  SC_workers_against_active_workers                      9612 non-null   int64  
+ 17  ST_persondays                                          9612 non-null   int64  
+ 18  ST_workers_against_active_workers                      9612 non-null   int64  
+ 19  Total_Adm_Expenditure                                  9612 non-null   float64
+ 20  Total_Exp                                              9612 non-null   float64
+ 21  Total_Households_Worked                                9612 non-null   int64  
+ 22  Total_Individuals_Worked                               9612 non-null   int64  
+ 23  Total_No_of_Active_Job_Cards                           9612 non-null   int64  
+ 24  Total_No_of_Active_Workers                             9612 non-null   int64  
+ 25  Total_No_of_HHs_completed_100_Days_of_Wage_Employment  9612 non-null   int64  
+ 26  Total_No_of_JobCards_issued                            9612 non-null   int64  
+ 27  Total_No_of_Workers                                    9612 non-null   int64  
+ 28  Total_No_of_Works_Takenup                              9612 non-null   int64  
+ 29  Wages                                                  9612 non-null   float64
+ 30  Women_Persondays                                       9612 non-null   int64  
+ 31  percent_of_Category_B_Works                            9612 non-null   int64  
+ 32  percent_of_Expenditure_on_Agriculture_Allied_Works     9612 non-null   float64
+ 33  percent_of_NRM_Expenditure                             9612 non-null   float64
+ 34  percentage_payments_gererated_within_15_days           9612 non-null   float64
+dtypes: float64(8), int64(23), object(4)
+memory usage: 2.6+ MB
+None
+--------------------------------------------------
+Descriptive statistics for key performance indicators:
+       Average_Wage_rate_per_day_per_person  \
+count                           9612.000000   
+mean                             296.811295   
+std                               96.925405   
+min                                8.436364   
+25%                              279.927576   
+50%                              295.407787   
+75%                              303.521227   
+max                             4481.525457   
+
+       Average_days_of_employment_provided_per_Household  \
+count                                        9612.000000   
+mean                                           33.234811   
+std                                            12.184280   
+min                                             6.000000   
+25%                                            26.000000   
+50%                                            34.000000   
+75%                                            40.000000   
+max                                            94.000000   
+
+       Total_No_of_HHs_completed_100_Days_of_Wage_Employment     Total_Exp  
+count                                        9612.000000       9612.000000  
+mean                                         4553.641906       8846.855045  
+std                                          7056.207349       9437.023798  
+min                                             0.000000          0.148480  
+25%                                           322.000000       1864.357056  
+50%                                          2120.000000       5874.102799  
+75%                                          5440.000000      12110.214527  
+max                                         49941.000000      52240.834910  
+
+Step 4 Complete: We have a foundational understanding of the data's characteristics.
+The next step will be to perform data transformations to prepare for further analysis.
+Applying a log transformation to a wider set of skewed numerical columns...
+
+Descriptive statistics of the transformed columns:
+       log_Approved_Labour_Budget  log_Average_Wage_rate_per_day_per_person  \
+count                 9612.000000                               9612.000000   
+mean                    13.859947                                  5.676581   
+std                      1.216814                                  0.177292   
+min                      8.574518                                  2.244571   
+25%                     12.900789                                  5.638097   
+50%                     14.091590                                  5.691736   
+75%                     14.755340                                  5.718741   
+max                     16.205909                                  8.407942   
+
+       log_Differently_abled_persons_worked  log_Material_and_skilled_Wages  \
+count                           9612.000000                     9612.000000   
+mean                               5.283608                        6.014175   
+std                                1.358103                        2.177791   
+min                                0.000000                        0.000000   
+25%                                4.418841                        4.528117   
+50%                                5.262690                        6.167382   
+75%                                6.259581                        7.892866   
+max                                8.652423                        9.675561   
+
+       log_Number_of_Completed_Works  log_Number_of_GPs_with_NIL_exp  \
+count                    9612.000000                     9612.000000   
+mean                        8.015055                        3.452725   
+std                         1.301189                        1.438985   
+min                         0.693147                        0.693147   
+25%                         7.282761                        2.302585   
+50%                         8.192017                        3.295837   
+75%                         8.998940                        4.477337   
+max                        10.154985                        7.181592   
+
+       log_Number_of_Ongoing_Works  \
+count                  9612.000000   
+mean                     10.183247   
+std                       0.512585   
+min                       9.097955   
+25%                       9.811454   
+50%                      10.171968   
+75%                      10.566691   
+max                      11.363636   
+
+       log_Persondays_of_Central_Liability_so_far  log_SC_persondays  \
+count                                 9612.000000        9612.000000   
+mean                                    14.045447          11.033323   
+std                                      1.329467           1.601709   
+min                                      6.538140           0.000000   
+25%                                     13.163216           9.935301   
+50%                                     14.312604          11.296006   
+75%                                     15.054020          12.281275   
+max                                     16.381554          13.981698   
+
+       log_ST_persondays  ...  log_Total_Households_Worked  \
+count        9612.000000  ...                  9612.000000   
+mean           10.828462  ...                    10.601561   
+std             2.514437  ...                     1.011328   
+min             0.000000  ...                     4.369448   
+25%             9.303215  ...                     9.920172   
+50%            11.066670  ...                    10.793034   
+75%            12.689732  ...                    11.358541   
+max            15.554802  ...                    12.306502   
+
+       log_Total_Individuals_Worked  log_Total_No_of_Active_Job_Cards  \
+count                   9612.000000                       9612.000000   
+mean                      11.073194                         11.553784   
+std                        1.046343                          0.602025   
+min                        4.744932                         10.137650   
+25%                       10.352235                         11.107878   
+50%                       11.247768                         11.721276   
+75%                       11.875890                         12.047251   
+max                       12.873179                         12.575938   
+
+       log_Total_No_of_Active_Workers  \
+count                     9612.000000   
+mean                        12.479041   
+std                          0.628714   
+min                         11.006374   
+25%                         11.943754   
+50%                         12.628152   
+75%                         13.022270   
+max                         13.459724   
+
+       log_Total_No_of_HHs_completed_100_Days_of_Wage_Employment  \
+count                                        9612.000000           
+mean                                            6.957834           
+std                                             2.427667           
+min                                             0.000000           
+25%                                             5.777652           
+50%                                             7.659643           
+75%                                             8.601718           
+max                                            10.818618           
+
+       log_Total_No_of_JobCards_issued  log_Total_No_of_Workers  \
+count                      9612.000000              9612.000000   
+mean                         12.837133                13.568555   
+std                           0.448048                 0.470284   
+min                          11.732992                12.376233   
+25%                          12.555116                13.250189   
+50%                          12.848187                13.604825   
+75%                          13.182155                13.886755   
+max                          13.561779                14.471699   
+
+       log_Total_No_of_Works_Takenup    log_Wages  log_Women_Persondays  
+count                    9612.000000  9612.000000           9612.000000  
+mean                       10.362092     8.206707             13.179188  
+std                         0.496049     1.283141              1.396001  
+min                         9.166284     0.138439              5.579730  
+25%                        10.010793     7.328816             12.234857  
+50%                        10.338964     8.485316             13.384166  
+75%                        10.727707     9.162895             14.220228  
+max                        11.455656    10.628075             15.669077  
+
+[8 rows x 22 columns]
